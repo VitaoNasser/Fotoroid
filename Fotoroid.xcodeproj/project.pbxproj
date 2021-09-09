@@ -15,6 +15,8 @@
 		03683C3126EA3DA40042F55E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03683C2F26EA3DA40042F55E /* LaunchScreen.storyboard */; };
 		03683C3C26EA3DA40042F55E /* FotoroidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C3B26EA3DA40042F55E /* FotoroidTests.swift */; };
 		03683C4726EA3DA40042F55E /* FotoroidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C4626EA3DA40042F55E /* FotoroidUITests.swift */; };
+		03683C5B26EA57B80042F55E /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C5A26EA57B80042F55E /* EffectsViewController.swift */; };
+		03683C6026EA581B0042F55E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C5F26EA581B0042F55E /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		03683C4226EA3DA40042F55E /* FotoroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03683C4626EA3DA40042F55E /* FotoroidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoroidUITests.swift; sourceTree = "<group>"; };
 		03683C4826EA3DA40042F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03683C5A26EA57B80042F55E /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		03683C5F26EA581B0042F55E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		03683C1826EA3DA20042F55E = {
 			isa = PBXGroup;
 			children = (
+				03683C5A26EA57B80042F55E /* EffectsViewController.swift */,
 				03683C2326EA3DA20042F55E /* Fotoroid */,
 				03683C3A26EA3DA40042F55E /* FotoroidTests */,
 				03683C4526EA3DA40042F55E /* FotoroidUITests */,
@@ -103,6 +108,7 @@
 				03683C2626EA3DA20042F55E /* SceneDelegate.swift */,
 				03683C2826EA3DA20042F55E /* ViewController.swift */,
 				03683C2A26EA3DA20042F55E /* Main.storyboard */,
+				03683C5F26EA581B0042F55E /* FinalViewController.swift */,
 				03683C2D26EA3DA40042F55E /* Assets.xcassets */,
 				03683C2F26EA3DA40042F55E /* LaunchScreen.storyboard */,
 				03683C3226EA3DA40042F55E /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03683C6026EA581B0042F55E /* FinalViewController.swift in Sources */,
 				03683C2926EA3DA20042F55E /* ViewController.swift in Sources */,
+				03683C5B26EA57B80042F55E /* EffectsViewController.swift in Sources */,
 				03683C2526EA3DA20042F55E /* AppDelegate.swift in Sources */,
 				03683C2726EA3DA20042F55E /* SceneDelegate.swift in Sources */,
 			);
@@ -445,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.victornasser.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
