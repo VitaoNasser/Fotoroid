@@ -48,7 +48,7 @@
                         <barButtonItem key="backBarButtonItem" title="Foto" id="fYU-S1-pTO"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="7M4-el-QKW" kind="show" id="Kac-Jm-bwi"/>
+                        <segue destination="7M4-el-QKW" kind="show" identifier="effectsSegue" id="Kac-Jm-bwi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -70,10 +70,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PkG-2N-7bt">
                                 <rect key="frame" x="20" y="118" width="374" height="644"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vhy-F0-ACq">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vhy-F0-ACq">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wVu-yi-CH5">
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wVu-yi-CH5">
                                         <rect key="frame" x="188.5" y="385.5" width="37" height="37"/>
                                         <color key="color" systemColor="systemYellowColor"/>
                                     </activityIndicatorView>
@@ -143,9 +143,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="collectionView" destination="5IA-2m-zZQ" id="vdK-gq-e6z"/>
-                        <outlet property="ivPhoto" destination="PkG-2N-7bt" id="tNo-XL-0tp"/>
-                        <outlet property="viLoading" destination="vhy-F0-ACq" id="xVO-WF-FgX"/>
+                        <outlet property="collectionView" destination="5IA-2m-zZQ" id="7Or-WC-Xyu"/>
+                        <outlet property="ivPhoto" destination="PkG-2N-7bt" id="m0q-wh-0Le"/>
+                        <outlet property="viLoading" destination="wVu-yi-CH5" id="mLU-Wb-5TI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CkU-Wk-jSc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
