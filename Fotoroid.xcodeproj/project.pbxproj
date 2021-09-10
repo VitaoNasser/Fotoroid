@@ -18,6 +18,7 @@
 		03683C6026EA581B0042F55E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C5F26EA581B0042F55E /* FinalViewController.swift */; };
 		03683C6B26EABE810042F55E /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C6A26EABE810042F55E /* EffectsViewController.swift */; };
 		03683C7026EB07920042F55E /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C6F26EB07920042F55E /* FilterManager.swift */; };
+		03683C7526EB8FA50042F55E /* EffectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03683C7426EB8FA50042F55E /* EffectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		03683C5F26EA581B0042F55E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		03683C6A26EABE810042F55E /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
 		03683C6F26EB07920042F55E /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		03683C7426EB8FA50042F55E /* EffectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				03683C2F26EA3DA40042F55E /* LaunchScreen.storyboard */,
 				03683C3226EA3DA40042F55E /* Info.plist */,
 				03683C6A26EABE810042F55E /* EffectsViewController.swift */,
+				03683C7426EB8FA50042F55E /* EffectCollectionViewCell.swift */,
 			);
 			path = Fotoroid;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				03683C6B26EABE810042F55E /* EffectsViewController.swift in Sources */,
 				03683C2726EA3DA20042F55E /* SceneDelegate.swift in Sources */,
 				03683C7026EB07920042F55E /* FilterManager.swift in Sources */,
+				03683C7526EB8FA50042F55E /* EffectCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

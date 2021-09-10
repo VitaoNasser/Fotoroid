@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! EffectsViewController
-        vc.image = sender as! UIImage
+        vc.image = sender as? UIImage
     }
     
 
